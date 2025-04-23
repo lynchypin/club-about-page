@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAA Club - About Us</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-blue: #1B1B4B;
+            --accent-red: #CC0000;
+        }
+        
+        .club-nav-item:hover {
+            border-bottom: 2px solid var(--accent-red);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header (Same as homepage for consistency) -->
+    <header class="bg-[#1B1B4B] text-white">
+        <!-- Top Bar -->
+        <div class="bg-[#CC0000] py-2">
+            <div class="container mx-auto px-4 flex justify-between items-center">
+                <div class="text-sm">
+                    Next Match: County Finals - Sept 30th, 3PM
+                </div>
+                <div class="flex gap-4">
+                    <a href="#" class="text-sm hover:text-gray-200">Member Login</a>
+                    <a href="#" class="text-sm hover:text-gray-200">Register</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main Header -->
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <!-- Replace with actual logo -->
+                    <img src="https://placehold.co/150x60" alt="Club Logo" class="h-15">
+                </div>
+                
+                <nav class="hidden md:flex gap-6">
+                    <a href="https://lynchypin.github.io/club-home-page/" class="club-nav-item py-2">Home</a>
+                    <a href="https://lynchypin.github.io/club-about-page/" class="club-nav-item py-2">About</a>
+                    <a href="#" class="club-nav-item py-2">Teams</a>
+                    <a href="#" class="club-nav-item py-2">Fixtures</a>
+                    <a href="#" class="club-nav-item py-2">News</a>
+                    <a href="#" class="club-nav-item py-2">Shop</a>
+                    <a href="#" class="club-nav-item py-2">Sponsors</a>
+                    <a href="#" class="club-nav-item py-2">Contact</a>
+                </nav>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title Section -->
+    <div class="bg-[#1B1B4B] text-white py-12">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl font-bold">About Our Club</h1>
+            <nav class="mt-4 text-sm" aria-label="Breadcrumb">
+                <ol class="list-none p-0 inline-flex">
+                    <li class="flex items-center">
+                        <a href="https://lynchypin.github.io/club-home-page/">Home</a>
+                        <svg class="fill-current w-3 h-3 mx-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
+                        </svg>
+                    </li>
+                    <li>About Us</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Club History Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Our History</h2>
+                    <p class="text-gray-600 mb-4">
+                        Founded in [YEAR], our club has been at the heart of the community for generations. 
+                        What started as a small group of enthusiastic players has grown into one of the most 
+                        respected GAA clubs in the region.
+                    </p>
+                    <p class="text-gray-600 mb-4">
+                        Through the years, we've celebrated numerous victories, fostered countless friendships, 
+                        and maintained our commitment to promoting Gaelic games and Irish culture in our community.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://placehold.co/600x400" alt="Historical Club Photo" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Values -->
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Our Mission & Values</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-[#CC0000] mb-4">
+                        <!-- Icon here -->
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                            <!-- Add appropriate SVG path -->
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Community First</h3>
+                    <p class="text-gray-600">
+                        We believe in building strong communities through sport and cultural activities.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-[#CC0000] mb-4">
+                        <!-- Icon here -->
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                            <!-- Add appropriate SVG path -->
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Excellence</h3>
+                    <p class="text-gray-600">
+                        Striving for excellence in everything we do, both on and off the field.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-[#CC0000] mb-4">
+                        <!-- Icon here -->
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 20 20">
+                            <!-- Add appropriate SVG path -->
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Tradition</h3>
+                    <p class="text-gray-600">
+                        Honoring our heritage while building for the future.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Committee Members -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Club Committee</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- Committee Member -->
+                <div class="text-center">
+                    <img src="https://placehold.co/200x200" alt="Committee Member" 
+                         class="rounded-full w-32 h-32 mx-auto mb-4">
+                    <h3 class="font-bold">John Smith</h3>
+                    <p class="text-gray-600">Chairperson</p>
+                </div>
+                <!-- Add more committee members -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Our Achievements</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Recent Success</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <span class="text-[#CC0000] mr-2">●</span>
+                            County Champions 2024
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-[#CC0000] mr-2">●</span>
+                            Junior Championship Winners 2023
+                        </li>
+                        <!-- Add more achievements -->
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Historical Honours</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <span class="text-[#CC0000] mr-2">●</span>
+                            5x County Championships
+                        </li>
+                        <li class="flex items-center">
+                            <span class="text-[#CC0000] mr-2">●</span>
+                            3x Provincial Titles
+                        </li>
+                        <!-- Add more achievements -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="bg-[#1B1B4B] text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Be Part of Our Story</h2>
+            <p class="mb-8 max-w-2xl mx-auto">
+                Join our club and become part of a proud tradition of Gaelic sports excellence.
+            </p>
+            <a href="#" class="inline-block bg-[#CC0000] text-white px-8 py-3 rounded-lg hover:bg-red-700">
+                Join Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer (Same as homepage for consistency) -->
+    <footer class="bg-[#1B1B4B] text-white pt-12 pb-6">
+        <!-- Footer content same as homepage -->
+    </footer>
+
+    <!-- Basic JavaScript for mobile menu toggle -->
+    <script>
+        // Mobile menu functionality would go here
+    </script>
+</body>
+</html>
